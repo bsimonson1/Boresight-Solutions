@@ -1,0 +1,80 @@
+.background {
+    font-family: 'Poppins';
+    background: radial-gradient(circle at 3%, #333, #333 1%, #eee 20%, #333 50%);
+}
+
+.siteBanner {
+    font-size: 50px;
+}
+.siteContainer {
+    border-radius: 25px;
+    background: white;
+    padding: 2%;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    width: auto;
+    height: auto;
+}
+
+.menuBanner {
+    border-bottom: 50px solid black;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: auto;
+    rotate: 180deg;
+    position: relative;
+    margin-right: -1%;
+    margin-left: -1%;
+}
+
+.menuItems {
+    rotate: 180deg;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: space-between; 
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.menuItems a:hover {
+    background: grey;
+    border-radius: 15px;
+    width: 65px;
+    height: 25px;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.menuButton {
+    margin-right: 8%;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.productsButton {
+    margin-right: 14%;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.aboutUsButton {
+    margin-left: 14%;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.moreButton {
+    margin-left: 8%;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
