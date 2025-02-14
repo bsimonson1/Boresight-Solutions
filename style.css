@@ -153,6 +153,10 @@ BELOW IS FOR HANDLING DIFFERENT USER MEDIA
     hr {
         margin-top: 6rem; 
     }
+    img {
+        width: 5vw;
+        height: 5vw;
+    }
 }
 
 @media (max-width: 830px) {
