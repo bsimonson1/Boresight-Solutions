@@ -31,6 +31,7 @@ header {
     justify-content: space-between;
     padding: 1vh 5vw;
     flex-wrap: wrap;
+    background-color: rgb(23, 23, 24);
 }
 
 hr {
@@ -112,6 +113,9 @@ nav a:hover {
 
 img {
     border-radius: 20%;
+    width:30%;
+    height:auto;
+    margin-top: 30px;
 }
 
 .siteBanner {
@@ -152,17 +156,19 @@ BELOW IS FOR HANDLING DIFFERENT USER MEDIA
 @media (max-width: 1080px) {
     hr {
         margin-top: 6rem; 
+        background-color: rgb(23, 23, 24);
     }
-    img {
-        width: 5vw;
-        height: 5vw;
-    }
+    /* img {
+        width: 1vw;
+        height: 1vw;
+    } */
 }
 
 @media (max-width: 830px) {
     header {
         flex-direction: column; 
         padding: 1vh 3vw; 
+        background-color: rgb(23, 23, 24);
     }
 
     .logo {
@@ -196,6 +202,7 @@ BELOW IS FOR HANDLING DIFFERENT USER MEDIA
 
     hr {
         margin-top: 8rem; 
+        background-color: rgb(23, 23, 24);
     }
 }
 
